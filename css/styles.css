@@ -49,7 +49,6 @@ body {
 }
 
 .container {
-  
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
@@ -116,7 +115,7 @@ body {
 
 .menu-header {
   display: flex;
-    column-gap: 40px;
+  column-gap: 40px;
 }
 
 .menu-link {
@@ -133,7 +132,7 @@ body {
   font-style: normal;
 }
 
-.menu-address { 
+.menu-address {
   display: flex;
   column-gap: 40px;
 }
@@ -153,10 +152,9 @@ body {
 .page-hero {
   background: #2e2f42;
   padding-left: 472px;
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-bottom: 48px;
-  
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-bottom: 48px;
 }
 
 .hero-title {
@@ -178,13 +176,11 @@ body {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   padding-left: 32px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    margin-bottom: 188px;
-    margin-top: 48px;
-    
-   
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  margin-bottom: 188px;
+  margin-top: 48px;
 }
 
 .hero-btn:hover,
@@ -194,7 +190,6 @@ body {
 /*  ===== /HERO STYLES ===== */
 
 /*  ===== FEATURES STYLES ===== */
-
 
 .section-features {
   padding-bottom: 60px;
@@ -214,8 +209,6 @@ body {
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
   width: 282px;
-  
-  
 }
 /*  ===== /FEATURES STYLES ===== */
 
@@ -223,7 +216,7 @@ body {
 .section-team {
   background-color: #f4f4fd;
   padding-bottom: 60px;
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .team-item {
@@ -260,7 +253,8 @@ body {
 
 /*  ===== PORTFOLIO STYLES ===== */
 .menu-portfolio {
-  flex-wrap: wrap;   
+  flex-wrap: wrap;
+  
 }
 
 .section-portfolio {
@@ -277,12 +271,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-
 }
 
 .portfolio-list-item {
  
-  
 }
 
 .porfolio-foto-title {
@@ -306,7 +298,6 @@ body {
 .page-footer {
   padding-top: 60px;
   background-color: var(--primari-text-color);
-  
 }
 
 .footer-link {
@@ -317,7 +308,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
 }
 
 .footer-logo {
