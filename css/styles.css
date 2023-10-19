@@ -1,0 +1,210 @@
+/*  ===== COMMON STYLES ===== */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  --primari-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --bgd-white-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  background-color: #FFFFFF;
+}
+/*  ===== /COMMON STYLES ===== */
+
+/*  ===== HEADER ===== */
+.page-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.span-logo {
+  color: var(--primari-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  color: var(--primari-text-color);
+  font-weight: 500;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.page-address {
+font-style: normal;
+}
+
+.menu-address-link {
+  color: #434455;
+  }
+
+.menu-address-link:hover,
+.menu-address-link:focus {
+  color: #404bbf;
+}
+/*  ===== /HEADER ===== */
+
+/*  ===== HERO STYLES ===== */
+
+.page-hero {
+  background: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF;
+}
+/*  ===== /HERO STYLES ===== */
+
+/*  ===== FEATURES STYLES ===== */
+.features-title {
+  color: var(--primari-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-paragraph {
+  color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
+}
+/*  ===== /FEATURES STYLES ===== */
+
+/*  =====   TEAM STYLES ===== */
+.section-team {
+  background-color: #f4f4fd;
+}
+
+
+.team-item {
+  background-color: #FFFFFF;
+}
+
+.team-title {
+  color: var(--primari-text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  
+}
+.team-title-name {
+  color: var(--primari-text-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  
+}
+.team-paragraph {
+  color: var(--secondary-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+ 
+}
+/*  ===== /TEAM STYLES ===== */
+
+/*  ===== PORTFOLIO STYLES ===== */
+.portfolio-title {
+  color: var(--primari-text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.porfolio-foto-title {
+  color: var(--primari-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-paragraph {
+  color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
+}
+/*  ===== /PORTFOLIO STYLES ===== */
+
+/*  ===== FOOTER STYLES ===== */
+.page-footer {
+  background-color: var(--primari-text-color);
+}
+
+.footer-link {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-paragraph {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+/*  ===== /FOOTER STYLES ===== */
