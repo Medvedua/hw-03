@@ -1,4 +1,26 @@
 /*  ===== COMMON STYLES ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style-type: none;
 }
@@ -23,19 +45,58 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+}
+
+.container {
+  
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /*  ===== /COMMON STYLES ===== */
 
 /*  ===== HEADER ===== */
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.container-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
 .page-logo {
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .span-logo {
@@ -46,6 +107,16 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  column-gap: 24px;
+}
+
+.menu-header {
+  display: flex;
+    column-gap: 40px;
 }
 
 .menu-link {
@@ -59,12 +130,17 @@ body {
 }
 
 .page-address {
-font-style: normal;
+  font-style: normal;
+}
+
+.menu-address { 
+  display: flex;
+  column-gap: 40px;
 }
 
 .menu-address-link {
   color: #434455;
-  }
+}
 
 .menu-address-link:hover,
 .menu-address-link:focus {
@@ -76,6 +152,11 @@ font-style: normal;
 
 .page-hero {
   background: #2e2f42;
+  padding-left: 472px;
+    padding-top: 188px;
+    padding-right: 472px;
+    padding-bottom: 48px;
+  
 }
 
 .hero-title {
@@ -85,6 +166,9 @@ font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn {
@@ -93,37 +177,57 @@ font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: #4d5ae5;
+  padding-left: 32px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    margin-bottom: 188px;
+    margin-top: 48px;
+    
+   
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 /*  ===== /HERO STYLES ===== */
 
 /*  ===== FEATURES STYLES ===== */
+
+
+.section-features {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
 .features-title {
   color: var(--primari-text-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .features-paragraph {
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
+  width: 282px;
+  
+  
 }
 /*  ===== /FEATURES STYLES ===== */
 
 /*  =====   TEAM STYLES ===== */
 .section-team {
   background-color: #f4f4fd;
+  padding-bottom: 60px;
+    padding-top: 60px;
 }
 
-
 .team-item {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -134,8 +238,7 @@ font-style: normal;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  
+  margin-bottom: 72px;
 }
 .team-title-name {
   color: var(--primari-text-color);
@@ -144,17 +247,27 @@ font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .team-paragraph {
   color: var(--secondary-text-color);
   text-align: center;
   letter-spacing: 0.02em;
- 
+  margin-bottom: 32px;
 }
 /*  ===== /TEAM STYLES ===== */
 
 /*  ===== PORTFOLIO STYLES ===== */
+.menu-portfolio {
+  flex-wrap: wrap;   
+}
+
+.section-portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .portfolio-title {
   color: var(--primari-text-color);
   text-align: center;
@@ -163,24 +276,37 @@ font-style: normal;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+
 }
+
+.portfolio-list-item {
+ 
+  
+}
+
 .porfolio-foto-title {
   color: var(--primari-text-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .portfolio-paragraph {
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 /*  ===== /PORTFOLIO STYLES ===== */
 
 /*  ===== FOOTER STYLES ===== */
 .page-footer {
+  padding-top: 60px;
   background-color: var(--primari-text-color);
+  
 }
 
 .footer-link {
@@ -191,6 +317,7 @@ font-style: normal;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  
 }
 
 .footer-logo {
@@ -206,5 +333,8 @@ font-style: normal;
 .footer-paragraph {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-top: 16px;
+  padding-bottom: 100px;
 }
 /*  ===== /FOOTER STYLES ===== */
