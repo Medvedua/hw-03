@@ -97,6 +97,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  
 }
 
 .span-logo {
@@ -107,6 +108,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  
 }
 
 .menu {
@@ -126,11 +128,14 @@ body {
 .menu-link {
   color: var(--primari-text-color);
   font-weight: 500;
+  padding: 24px 0;
+  
 }
 
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
+  
 }
 
 .page-address {
@@ -140,10 +145,12 @@ body {
 .menu-address {
   display: flex;
   gap: 40px;
+  
 }
 
 .menu-address-link {
   color: #434455;
+  
 }
 
 .menu-address-link:hover,
