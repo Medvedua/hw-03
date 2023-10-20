@@ -112,7 +112,7 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .menu-header {
@@ -156,8 +156,7 @@ body {
   background: #2e2f42;
   padding-left: 472px;
   padding-top: 188px;
-  padding-right: 472px;
-  padding-bottom: 48px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -167,12 +166,19 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hero-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   color: #ffffff;
   font-weight: 500;
   line-height: 1.5;
@@ -195,8 +201,11 @@ body {
 /*  ===== FEATURES STYLES ===== */
 
 .section-features {
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding: 120px 0;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -211,19 +220,20 @@ body {
 .features-paragraph {
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
-  width: 282px;
+  
+  
 }
 /*  ===== /FEATURES STYLES ===== */
 
 /*  =====   TEAM STYLES ===== */
 .section-team {
   background-color: #f4f4fd;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding: 120px 0;
 }
 
 .team-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -236,6 +246,11 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
+.container-section-two {
+  padding: 32px 0;
+}
+
 .team-title-name {
   color: var(--primari-text-color);
   text-align: center;
@@ -257,12 +272,13 @@ body {
 /*  ===== PORTFOLIO STYLES ===== */
 .menu-portfolio {
   flex-wrap: wrap;
+  row-gap: 48px;
   
 }
 
 .section-portfolio {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -276,6 +292,11 @@ body {
   margin-bottom: 72px;
 }
 
+.container-section-three {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
 .portfolio-list-item {
  
 }
@@ -293,13 +314,13 @@ body {
 .portfolio-paragraph {
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  
 }
 /*  ===== /PORTFOLIO STYLES ===== */
 
 /*  ===== FOOTER STYLES ===== */
 .page-footer {
-  padding-top: 60px;
+  padding: 100px 0;
   background-color: var(--primari-text-color);
 }
 
@@ -311,6 +332,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -327,7 +350,7 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   width: 264px;
-  margin-top: 16px;
+  
   padding-bottom: 100px;
 }
 /*  ===== /FOOTER STYLES ===== */
